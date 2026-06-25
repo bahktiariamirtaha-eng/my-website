@@ -50,8 +50,8 @@
     justify-content: space-around;
   }
   li a:hover {
-    height: 50%;
-    font-size: 14px;
+    height: 30%;
+    font-size: 11px;
     color: #ffffff;
     font-weight: 900;
     border-bottom: 1px solid #ffffff;
@@ -70,6 +70,7 @@
   }
   .button-left {
     display: none;
+
   }
   /*emd nav  */
 
@@ -109,10 +110,12 @@
   .box-right #right1 {
     width: 25%;
     margin-right: 20%;
+    font-size: 12px;
   }
   .box-right #left1 {
     width: 25%;
     margin-right: 55%;
+    font-size: 12px;
   }
   .box-left img {
     display: none;
@@ -125,6 +128,19 @@
   /* start cards */
   .titer-card {
     width: 70%;
+  }
+  .titer-card .one {
+    font-size: 15px;
+    font-weight: 900;
+    color: #2f2fe4;
+    width: 50%;
+    margin: auto;
+  }
+  .titer-card .two {
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    width: 100%;
   }
   .cards {
     width: 95%;
@@ -143,8 +159,21 @@
     width: 40%;
     height: 70%;
     margin-top: 5px;
-    background-color: white;
   }
+  .disen,
+  .tose,
+  .shop,
+  .secuses span {
+    font-size: 10px;
+  }
+  .cards p {
+    width: 80%;
+    height: 40%;
+    margin: 5px auto;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
   /* end cards  */
 
   /* start project */
@@ -175,12 +204,33 @@
   }
   .project p {
     position: absolute;
-    width: 85%;
+    width: 80%;
     height: 40%;
     margin-top: 0%;
     display: flex;
     justify-content: start;
     align-items: center;
+  }
+  p #namsite {
+    width: 95%;
+    height: 30%;
+    font-size: 12px;
+    font-weight: 800;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  p #namcar {
+    width: 95%;
+    height: 40%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: 5px auto;
   }
   .button {
     display: none;
@@ -201,9 +251,9 @@
     margin-right: 10%;
     border-left: 1px solid #ffffff;
   }
-.fo-right p {
-  width: 90%;
-}
+  .fo-right p {
+    width: 90%;
+  }
   .fo-left {
     display: none;
   }
